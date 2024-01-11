@@ -12,15 +12,15 @@ public class mainClass {
 			if (num == 2)
                         {
                                 try {
-                                System.out.println("Write a simple arithmetic of 2 integers");
+		                        System.out.println("Write a simple arithmetic of 2 integers");
 
-				int a = myInput.nextInt();
-                                char op1 = myInput.next().charAt(0);
-                                int b = myInput.nextInt();
+					int a = myInput.nextInt();
+		                        char op1 = myInput.next().charAt(0);
+		                        int b = myInput.nextInt();
 
-				twoIntegers twoInt = new twoIntegers(a, op1, b);
+					twoIntegers twoInt = new twoIntegers(a, op1, b);
 
-				twoInt.twoIntegerLogic(a, op1, b);
+					twoInt.twoIntegerLogic(a, op1, b);
 				} catch (Throwable t) {
                                         System.out.println("INVALID INPUT");
                                         System.exit(0);
@@ -29,17 +29,17 @@ public class mainClass {
 			else if (num == 3)
 			{
 				try {
-                                System.out.println("Write a simple arithmetic of 3 integers");
+		                        System.out.println("Write a simple arithmetic of 3 integers");
 
-                                int a = myInput.nextInt();
-                                char op1 = myInput.next().charAt(0);
-                                int b = myInput.nextInt();
-                                char op2 = myInput.next().charAt(0);
-                                int c = myInput.nextInt();
+		                        int a = myInput.nextInt();
+		                        char op1 = myInput.next().charAt(0);
+		                        int b = myInput.nextInt();
+		                        char op2 = myInput.next().charAt(0);
+		                        int c = myInput.nextInt();
 
-				threeIntegers threeInt = new threeIntegers(a, op1, b, op2, c);
+					threeIntegers threeInt = new threeIntegers(a, op1, b, op2, c);
 
-				threeInt.threeIntegerLogic(a, op1, b, op2, c);
+					threeInt.threeIntegerLogic(a, op1, b, op2, c);
 				} catch (Throwable t) {
                                         System.out.println("INVALID INPUT");
                                         System.exit(0);
@@ -51,8 +51,7 @@ public class mainClass {
 			 System.out.println("INVALID INPUT");
 			 System.exit(0);
 		 }
-	}
-
+		}
 	}
 }
 
